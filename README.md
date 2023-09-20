@@ -54,14 +54,14 @@ I learned how to manipulate objects on a webpage page in cases where the user dy
 
 JavaScript
 
-window.addEventListener('resize', () => {
-    w = window.innerWidth;
-    if(condition) {
-        do this;
-    } else {
-        do some other task;
-    }
-});
+    window.addEventListener('resize', () => {
+        w = window.innerWidth;
+        if(condition) {
+            do this;
+        } else {
+            do some other task;
+        }
+    });
 
 ### Useful resources
 
