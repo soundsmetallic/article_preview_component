@@ -14,8 +14,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-[Screenshot](./screenshot.jpg)
+[Screenshot](./screenshot.png)
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/soundsmetallic/article_preview_component)
+- [[Live Site URL](https://soundsmetallic.github.io/article_preview_component/)
 
 ## My process
 
@@ -50,8 +48,6 @@ Users should be able to:
 - JavaScript
 - Flexbox
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 I learned how to manipulate objects on a webpage page in cases where the user dynamically changes the size of the window.
@@ -59,13 +55,13 @@ I learned how to manipulate objects on a webpage page in cases where the user dy
 JavaScript
 
 window.addEventListener('resize', () => {
-        w = window.innerWidth;
-        if(condition) {
-          do this;
-        } else {
-          do some other task;
-        }
-    });
+  w = window.innerWidth;
+  if(condition) {
+    do this;
+    } else {
+      do some other task;
+    }
+});
 
 ### Useful resources
 
