@@ -1,0 +1,203 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Background */
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(210, 46%, 95%);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Main Card Styling */
+.article-card {
+  width: 780px;
+  background: white;
+  display: flex;
+  border-radius: 0.5rem;
+}
+
+/* Left Side */
+.image-section {
+  width: 40%;
+  min-width: 320px;
+  background: center/cover no-repeat url(../images/drawers.jpg);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+/* Right Side */
+h1 {
+  font-size: 1.25rem;
+  color: hsl(217, 19%, 35%);
+  margin: 1rem 0 0.75rem 0;
+}
+
+p {
+  color: hsl(214, 17%, 51%);
+  line-height: 1.25rem;
+}
+
+/* Social Section */
+.social-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.sharing-option {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.sharing-option:hover {
+  background: hsl(217, 19%, 35%);
+  cursor: pointer;
+}
+.sharing-option:hover .share-icon {
+  fill: white;
+}
+
+.copy {
+  padding: 1rem 3rem 2rem;
+  position: relative;
+}
+
+.name-and-date {
+  margin-left: 1rem;
+}
+.name-and-date > * {
+  margin: 0;
+}
+
+p.name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+
+p.date {
+  color: hsl(212, 23%, 69%);
+}
+
+.platform-options {
+  width: 248px;
+  height: 50px;
+  background: hsl(217, 19%, 35%);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.platform-options p {
+  text-transform: uppercase;
+  color: hsl(212, 23%, 69%);
+  letter-spacing: 0.3rem;
+}
+.platform-options img {
+  max-height: 2rem;
+  max-width: 2rem;
+}
+.platform-options > * {
+  margin: 0 0.5rem;
+}
+
+.socials-option {
+  position: absolute;
+  right: -65px;
+  bottom: 100px;
+  display: none;
+}
+
+.arrow {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid hsl(217, 19%, 35%);
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  bottom: -12px;
+  left: 92px;
+}
+
+.mobile-socials-option {
+  position: absolute;
+  width: 320px;
+  bottom: -1.25rem;
+  display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 910px) {
+  .article-card {
+    position: relative;
+    width: 320px;
+    height: 550px;
+    flex-direction: column;
+  }
+  .image-section {
+    height: 45%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background: center/cover no-repeat url(../images/drawers.jpg);
+  }
+  .copy {
+    padding: 2rem 2rem 0;
+  }
+  h1 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  .social-section {
+    margin-top: 1.5rem;
+  }
+  .mobile-socials-option {
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+    height: 60px;
+  }
+  .mobile-socials-option .sharing-option {
+    background: hsl(214, 17%, 51%);
+    margin-left: 3rem;
+  }
+  .mobile-socials-option .share-icon {
+    fill: hsl(217, 19%, 35%);
+  }
+  .mobile-socials-option .share-icon:hover {
+    fill: white;
+  }
+  .platform-options {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
