@@ -53,8 +53,7 @@ Users should be able to:
 I learned how to manipulate objects on a webpage page in cases where the user dynamically changes the size of the window.
 
 JavaScript
-
-{
+```
 window.addEventListener('resize', () => {
   w = window.innerWidth;
   if(condition) {
@@ -63,7 +62,7 @@ window.addEventListener('resize', () => {
     do some other task;
   }
 });
-}
+```
 
 ### Useful resources
 
