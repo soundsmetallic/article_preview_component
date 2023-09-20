@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/soundsmetallic/article_preview_component)
-- [[Live Site URL](https://soundsmetallic.github.io/article_preview_component/)
+- [Live Site URL](https://soundsmetallic.github.io/article_preview_component/)
 
 ## My process
 
@@ -55,11 +55,11 @@ I learned how to manipulate objects on a webpage page in cases where the user dy
 JavaScript
 
 window.addEventListener('resize', () => {
-  w = window.innerWidth;
-  if(condition) {
-    do this;
+    w = window.innerWidth;
+    if(condition) {
+        do this;
     } else {
-      do some other task;
+        do some other task;
     }
 });
 
